@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="___PROJECTNAME__.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="LocalFileModel" representedClassName="LocalFileModel" syncable="YES">
+        <attribute name="created_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="downloaded_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_dir" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="modified_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parent_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preview_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saved_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LocalFileModel" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
 </model>
